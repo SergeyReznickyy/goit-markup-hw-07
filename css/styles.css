@@ -1024,9 +1024,9 @@ img {
       url(../images/people-office-tab@1x.jpg);
   }
 }
-@media (min-device-pixel-ratio: 2) and (max-width: 428px),
-  (min-resolution: 192dpi) and (max-width: 428px),
-  (min-resolution: 2dppx) and (max-width: 428px) {
+@media (min-device-pixel-ratio: 2) and (max-width: 427px),
+  (min-resolution: 192dpi) and (max-width: 427px),
+  (min-resolution: 2dppx) and (max-width: 427px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -1143,9 +1143,9 @@ img {
     width: calc((100% - 24px) / 2);
   }
 }
-@media (min-device-pixel-ratio: 2) and (max-width: 768px),
-  (min-resolution: 192dpi) and (max-width: 768px),
-  (min-resolution: 2dppx) and (max-width: 768px) {
+@media (min-device-pixel-ratio: 2) and (max-width: 767px),
+  (min-resolution: 192dpi) and (max-width: 767px),
+  (min-resolution: 2dppx) and (max-width: 767px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
