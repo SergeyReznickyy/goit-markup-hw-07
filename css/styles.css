@@ -258,7 +258,7 @@ img {
 }
 /* -----------------   HERO  ---------------------- */
 .hero {
-  max-width: 1440px;
+  max-width: 428px;
   margin: 0 auto;
   background-color: var(--text-color-second);
 
@@ -1027,12 +1027,14 @@ img {
 
 @media screen and (min-width: 768px) {
   .hero {
+    max-width: 768px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office-tab@1x.jpg);
   }
+
   .container {
     max-width: 768px;
   }
@@ -1167,6 +1169,9 @@ img {
   .footer > .container {
     max-width: 1158px;
     padding: 0 15px 0 15px;
+  }
+  .hero {
+    max-width: 1440px;
   }
   .header-navigation {
     display: flex;
